@@ -43,7 +43,7 @@ let average_age = 0
 group.forEach((member) => {
     average_age += (member.age / group.length)
 
-    if (member.isMarried === true) {
+    if (member.isMarried) {
         double.push(member.name)
     } else {
         single.push(member.name)
